@@ -14,13 +14,12 @@ int main() {
 			x += 9;
 			y += x/2;
 		} else if (x == 100) {
-			continue;
+			z = 30;
 		} else if (y == 100) {
-			break;
+			z = 40;
 		} else {
-			puts("Reverse it");
+			z = 50;
 		}
 	}
-	printf("%d\t%d\t%d\t",x,y,z);
-	return 0;
+	return z;
 }
